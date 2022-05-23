@@ -1,0 +1,14 @@
+Algoritmo "Aula 1 - Formúla da Área do Triângulo - LPA"
+Var
+base:real
+altura:real
+area:real
+Inicio
+escreva ("Para encontrar a aréa do triângulo, utilize os seguintes valores: ")
+escreva ("Base:")
+leia (base)
+escreva ("Altura:")
+leia (altura)
+Area <- (base*altura)/2
+escreva ("o resultado da Área do Triângulo é: ",Area,"!")
+Fimalgoritmo
