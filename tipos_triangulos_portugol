@@ -1,0 +1,30 @@
+Algoritmo "Tipos de Triângulos"
+
+Var
+a, b, c : real
+
+Inicio
+//Entrada das variáveis
+escreva("Digite o  valor do 1º lado: ")
+leia(a)
+escreva("digite o valor do 2º lado: ")
+leia(b)
+escreva("digite o valor do 3º lado: ")
+leia(c)
+
+//Teste Lógico e Processamento
+se(a <(b +c)) e (y<(a+c)) e (c<(a+ b)) entao
+se(a = b)e(b = c)entao
+escreva("Tipo de triangulo equilátero")
+senao
+se(a= b)ou(a=c)ou(b =c)entao
+escreva("Tipo de triangulo isósceles")
+senao
+escreva("Tipo de triangulo escaleno")
+fimse
+fimse
+senao
+escreva("Não é um triangulo")
+fimse
+
+Fimalgoritmo
