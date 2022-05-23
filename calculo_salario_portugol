@@ -1,0 +1,10 @@
+Algoritmo "Aula 1 - Novo Salário - LPA"
+Var
+salarioantigo, novosalario: real
+Inicio
+escreva ("O Novo salário terá um reajuste de 15 %, para saber de quanto será, marque o valor do Salário Antigo.")
+escreva("Salario Antigo:")
+leia(salarioantigo)
+novosalario <- salarioantigo+(salarioantigo*0,15)
+escreva ("O Novo Salario é: ",novosalario)
+Fimalgoritmo
