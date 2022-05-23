@@ -1,0 +1,29 @@
+Algoritmo "Maior de 3 números"
+
+Var
+a,b,c, maior: inteiro
+
+Inicio
+
+// entrada
+
+escreva("Digite o número a: ")
+leia(a)
+escreva("Digite o número b: ")
+leia(b)
+escreva("Digite o número c: ")
+leia(c)
+
+//processamento
+
+se(a>b) e (a>c)entao
+escreva("maior é: ",a)
+senao
+se(b>a) e (b>c)entao
+escreva("maior é:",b)
+senao
+se(c>a) e(c>b)entao
+escreva("maior é:",c)
+fimse
+fimse
+fimse
