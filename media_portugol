@@ -1,0 +1,20 @@
+Algoritmo "Aula 1 - Média - LPA"
+Var
+a:real
+b:real
+c:real
+d: real
+m:real
+Inicio
+escreva ("Encontre as médias com os seguintes dados: ")
+escreva ("valor de A: : ")
+leia (a)
+escreva ("valor de B: : ")
+leia (b)
+escreva ("valor de C: : ")
+leia (c)
+escreva ("valor de D: : ")
+leia(d)
+m <- (a + b + c + d) /4
+escreva ("o resultado da Média é: ",m,"!")
+Fimalgoritmo
