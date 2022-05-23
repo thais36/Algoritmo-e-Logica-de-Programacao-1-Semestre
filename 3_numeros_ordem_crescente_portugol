@@ -1,0 +1,41 @@
+Algoritmo "Colocando 3 números em ordem crescente"
+
+Var
+
+a,b,c:inteiro
+
+Inicio
+
+Escreva("Digite o primeiro número: ")
+leia(a)
+Escreva("Digite o segundo número: ")
+leia(b)
+Escreva("Digite o terceiro número: ")
+leia(c)
+
+se (a>b) e (a>c) e (a>c) entao
+Escreva("A ordem crescente é: ", c,b,a)
+senao
+se (a>b) e (a>c) e (c>b) entao
+Escreva("A ordem crescente é: ", b,c,a)
+senao
+se (b>a) e (b>c) e (a>c) entao
+Escreva("A ordem crescente é: ", c,a,b)
+senao
+se (b>a) e (b>c) e (c>a) entao
+Escreva("A ordem crescente é: ", a,c,b)
+senao
+se (c>a) e (c>b) e (a>b) entao
+Escreva("A ordem crescente é: ", b,a,c)
+senao
+se (c>a) e (c>b) e (b>a) entao
+Escreva("A ordem crescente é: ", a,b,c)
+senao
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+
+fimalgoritmo
