@@ -1,0 +1,16 @@
+Algoritmo "Aula 1 - Soma - LPA"
+Var
+a: inteiro
+b:inteiro
+c:inteiro
+s: inteiro
+Inicio
+escreva ("Entre com o valor de A: : ")
+leia (a)
+escreva ("Entre com o valor de B: : ")
+leia (b)
+escreva ("Entre com o valor de C: : ")
+leia (c)
+S <- a + b + c
+escreva ("o resultado da soma é: ",s,"!")
+Fimalgoritmo
